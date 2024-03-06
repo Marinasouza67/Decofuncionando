@@ -1,5 +1,10 @@
-*{
-    background: #e5e5e5;
+
+@media screen and (max-width: 768px){
+	/* Estilizações CSS */
+}
+
+
+*{ background: #e5e5e5;
     font-family: "Montserrat", sans-serif;
 font-size:24px;
 font-weight: 200;
@@ -7,6 +12,12 @@ line-height: 150%;
 
 
 }
+	
+body{
+    background-color: rgb(122, 150, 174);
+}
+
+
 .cabecalho{
     margin-left: 10px;
     padding-top: 10px;
