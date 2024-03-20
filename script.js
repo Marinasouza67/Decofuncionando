@@ -45,4 +45,18 @@ function desencriptar (stringdDesencriptada){
 }
 
 return stringdDesencriptada
+
+}
+function btnCopiar(){
+
+  const textoCopiado = copiar(mensagem.value);
+   mensagem.value = textoCopiado;
+    text.value="";
+}
+function copiar(stringCopiado){
+let textoCopiado = document.querySelectorAll("mensagem");
+textoCopiado.select();
+textoCopiado.setSelectionRange (0,99999);
+
+navigator.clipboard.writeText('text to be copied');
 }

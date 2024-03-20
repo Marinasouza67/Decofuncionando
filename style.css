@@ -11,10 +11,7 @@ font-weight: 200;
 line-height: 150%;
 
 
-}
-	
-body{
-    background-color: rgb(122, 150, 174);
+
 }
 
 
@@ -117,7 +114,7 @@ text-align: center;
     font-size: 18px;
 }
 footer{
-    color: aqua;
+    color: rgb(57, 230, 14);
     background-color: #0A3871;
     text-align: center;
     margin-left: 10px;
